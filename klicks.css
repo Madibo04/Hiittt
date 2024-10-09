@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0; 
+    padding: 0;
+}
+li{
+    list-style: none;
+}
+a, a:active, a:visited{
+    text-decoration: none;
+    color: white;
+    font-size: 2em;
+}
+a:hover{
+    color: orange;
+}
+header{
+    background-color: green;
+    position: sticky;
+    top: 0;
+}
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1%;
+}
+.fixed{
+    width: 100px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: green;
+}
+
+.div1{
+    height: 30vh;
+    width: 100vw;
+    background-color: green;
+}
+.div3{
+    height: 30vh;
+    width: 100vw;
+    background-color: red;
+}
+.div2{
+    position: relative;
+}
+.move{
+    height: 10vh;
+    width: 50vw;
+    background-color: blue;
+    position: absolute;
+    top: -40px;
+    right: 25vw;
+}
+p{
+    font-family: poppins;
+}
+@media screen and(max-width: 500px){
+    p{
+        font-family: roboto;
+    }
+}

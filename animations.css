@@ -1,0 +1,71 @@
+.sharp{
+    background-color: green;
+    color: yellow;
+    border: none;
+    transition: background-color 2s ease-in-out, color 2s ease-in-out, scale 2s;
+}
+.sharp:hover{
+    background-color: yellow;
+    color: white;
+    border: 1px solid green;
+    scale: 1;
+    transition: background-color 2s ease-in-out, color 2s ease-in-out, scale 2s;
+}
+img{
+    height: 100px;
+    width: 200px;
+    margin-top: 50px;
+    transition: scale 2s;
+}
+img:hover{
+    scale: 1.5;
+    transition: scale 2s;
+}
+
+h1{
+    background-color: green;
+    color: white;
+    width: 50vw;
+    text-align: center;
+    animation: kick 5s ease-in-out infinite;
+}
+.t{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+i:hover{
+    rotate: 360deg;
+    rotate: 2turn;
+    scale: 2;
+    transition: rotate 1s, scale 1s;
+}
+
+/* h2{
+    background-color: blue;
+    color: white;
+    width: 200px;
+    text-align: center;
+    animation: klicks 2s infinite;
+} */
+@keyframes klicks{
+    0%, 100%{
+        transform: translateY(10px);
+    }
+    50%{
+        transform: translateY(50px);
+    }
+}
+@keyframes kick{
+    0%{
+        transform: translateX(100vw);
+        background-color: green;
+    }
+    100%{
+        background: blue;
+        transform: translateX(-55vw);
+    }
+    50%{
+        background-color: yellow;
+    }
+}

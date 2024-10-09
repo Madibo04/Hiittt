@@ -1,0 +1,43 @@
+p{
+    color: green;
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#p1{
+    margin: 30px 30px 30px 30px;
+    border: 3px dashed blue;
+    padding-left: 800px;
+}
+.ttt{
+    margin-top: 100px;
+}
+h2{
+    color: blue;
+}
+.measure{
+    background-color: red;
+    border: 5px dashed black;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    width: 70vw;
+    height: 50px;
+}
+.outer{
+    background-color: red;
+    width: 90vw;
+    height: 50px;
+    font-size: 30px;
+}
+.inner{
+    background-color: blue;
+    width: 50%;
+    height: 25px;
+}
+ul{
+    display: flex;
+    width: 20vw;
+    justify-content: space-between;
+    font-size: 25px;
+}

@@ -1,0 +1,18 @@
+.top, .bottom{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 3%;
+}
+div{
+    border: 1px solid black;
+    border-radius: 10px;
+    height: 70px;
+    width: 100%;
+    justify-content: center;
+    background-color: aquamarine;
+}
+@media screen and (max-width: 700px){
+    div{
+        background-color: blue;
+    }
+}

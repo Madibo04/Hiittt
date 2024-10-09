@@ -1,0 +1,64 @@
+body{
+    padding: 10px;
+}
+div{
+    height: 100px;
+}
+.P1{
+    margin: 10px 0px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 10px;   
+}
+.P2{
+    margin: 10px 0px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 10px;
+}
+.P3{
+    margin: 10px 0px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+}
+@media screen and(max-width:500px){
+    .red{
+        background-color: white;
+    }
+}   
+.red{
+    background-color: red;
+}
+.green{
+    background-color: green;
+}
+.Yellow{
+    background-color: yellow;
+}
+.Orange{
+    background-color: orange;
+}
+.Purple{
+    background-color: purple;
+}
+.Brown{
+    background-color: brown;
+}
+.Black{
+    background-color: black;
+}
+.Pink{
+    background-color: pink;
+}
+.AM{
+    background-color: aquamarine;
+}
+.blue{
+    background-color: blue;
+}
+
+p{
+    color: white;
+    font-size: 20px;
+}

@@ -1,0 +1,65 @@
+.sharp{
+    background-color: green;
+    color: yellow;
+    border: none;
+    transition: background-color 2s ease-in-out, color 2s ease-in-out, scale 2s;
+}
+.sharp:hover{
+    background-color: yellow;
+    color: green;
+    scale: 1.5;
+    transition: background-color 2s ease-in-out, color 2s ease-in-out, scale 2s;
+}
+
+h1{
+    background-color: green;
+    color: white;
+    width: 50vw;
+    text-align: center;
+    animation: hiit 5s infinite;
+}
+
+h2{
+    background-color: blue;
+    color: white;
+    width: 10vw;
+    text-align: center;
+    animation: ttt 2s infinite;
+}
+
+h3{
+    border-radius: 50%;
+    border: 5px solid blue;
+    text-align: center;
+    height: 20px;
+    width: 20px;
+    padding: 10px;
+}
+
+h3:hover{
+    scale: 1.5;
+    transition: scale 2s;
+}
+
+@keyframes ttt{
+    0%{
+        transform: translateY(10px);
+    }
+    50%{
+        transform: translateY(50px);
+    }
+}
+
+@keyframes hiit{
+    0%{
+        background-color: green;
+        transform: translateX(100vw);
+    }
+    50%{
+        background-color: yellow;
+    }
+    100%{
+        color: green;
+        transform: translateX(-55vw);
+    }
+}
